@@ -1,0 +1,30 @@
+body{
+    background: url(./concrete_seamless.png);
+}
+.YN{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    background-color: #4aaaa5;
+    display: inline-block;
+    height: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: -760px;
+}
+.bashliq{
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    line-height: 75px;
+}
+.YN a{
+    text-decoration: none;
+    color: white;
+}
+.list{
+    display:-ms-inline-grid;
+    padding-left: 5px;
+}
