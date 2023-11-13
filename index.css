@@ -46,14 +46,16 @@ body {
     height: 390px;
 }
 
-h1,h2 {
+h1,
+h2 {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: 700;
     color: #4aaaa5;
     padding-bottom: 20px;
     font-size: 30px;
     line-height: 49px;
-    border-bottom: 3px solid #ddd;
+    border-bottom: 2px solid #ddd;
+
 }
 
 .cat-img {
@@ -81,13 +83,37 @@ h1,h2 {
 
 .sidebar {
     float: right;
-  width: 100%;
-  max-width: 270px;
-  padding: 30px;
-  margin-bottom: 20px;
-  margin-top: -492px;
-  margin-right: 75px;
-  background: #fff;
-  border: 1px solid #ddd;
+    width: 100%;
+    max-width: 270px;
+    padding: 30px;
+    margin-bottom: 20px;
+    margin-top: -492px;
+    margin-right: 75px;
+    background: #fff;
+    border: 1px solid #ddd;
 
+}
+
+.social {
+    width: 62px;
+    height: 62px;
+    margin-top: 8px;
+    margin-right: 5px;
+}
+
+.social:last-child {
+    margin-right: 0;
+}
+
+
+.foot {
+    margin: 0 auto;
+    padding: 30px 0;
+    clear: both;
+    font-size: 12px;
+    color: #fff;
+    color: #ccc;
+    text-align: center;
+    background: #666;
+    border-top: 8px solid #4aaaa5;
 }
