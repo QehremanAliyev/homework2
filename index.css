@@ -1,30 +1,93 @@
-body{
-    background: url(./concrete_seamless.png);
+body {
+    background: url(./images/concrete_seamless.png);
 }
-.YN{
+
+.YN {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
     font-weight: bold;
     color: white;
     background-color: #4aaaa5;
     display: inline-block;
-    height: 80px;
+    height: 81px;
     padding-left: 20px;
     padding-right: 20px;
     margin-left: -760px;
 }
-.bashliq{
+
+.basliq {
     background-color: white;
     height: 80px;
     width: 100%;
     text-align: center;
     line-height: 75px;
+    border-bottom: 2px solid #ccc;
+
 }
-.YN a{
+
+.YN a {
     text-decoration: none;
     color: white;
 }
-.list{
-    display:-ms-inline-grid;
+
+.list {
+    display: -ms-inline-grid;
     padding-left: 5px;
+}
+
+.aboutme {
+    float: left;
+    width: 85%;
+    max-width: 650px;
+    padding: 30px;
+    margin: 40px 195px;
+    background: #fff;
+    border: 1px solid #ddd;
+    height: 390px;
+}
+
+h1,h2 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 700;
+    color: #4aaaa5;
+    padding-bottom: 20px;
+    font-size: 30px;
+    line-height: 49px;
+    border-bottom: 3px solid #ddd;
+}
+
+.cat-img {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+    margin-right: 25px;
+}
+
+#p1 {
+    margin-top: 17px;
+}
+
+#p2 {
+    margin-top: 68px;
+}
+
+#p1,
+#p2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #777;
+}
+
+.sidebar {
+    float: right;
+  width: 100%;
+  max-width: 270px;
+  padding: 30px;
+  margin-bottom: 20px;
+  margin-top: -492px;
+  margin-right: 75px;
+  background: #fff;
+  border: 1px solid #ddd;
+
 }
